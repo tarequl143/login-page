@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Main CSS -->
+    <link href="css/login.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+         <link href="24webgroup"/>
+        <script src="assets/html5shiv.js"></script> 
+        <script src="assets/respond.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+
+    <div class="site-wrapper">
+        <div class="login-banner">
+            <div class="login-banner-container">
+                <h1>Connecting to
+                    <div class="login-banner-logo"><img src="img/globalFileStoreRecord.png" alt=""></div>
+                </h1>
+                <p>Sign-in with your Cenovus Energy - Prod account to access ServiceNow - Production</p>
+            </div>
+        </div>
+        <div class="login-wrapper">
+            <div class="login-form-container">
+
+                <!--===== Logo Wrapper ======-->
+                <div class="login-logo">
+                    <a href="#"><img src="img/fileStoreRecord.png" alt=""></a>
+                    <!-- Here You Can Change The Logo -->
+                </div>
+                <!--===== End Logo Wrapper ======-->
+
+                <div class="login-form-wrap">
+                    <form action="" method="post">
+                        <h2>Sign In</h2>
+                        <div class="input-field-container">
+                            <div class="custom-input-field">
+                                <span class="input-icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                <span class="input-tooltip-icon"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                                <span class="input-tooltip-text">Username</span>
+                                </span>
+                                <input type="text" name="login_u_name" placeholder="Username">
+                            </div>
+                            <!--
+                            <p class="input-error" style="color: red;"><span class="error-icon"><i class="fa fa-exclamation-circle" aria-hidden="true"></i></span>Please enter a username</p>
+                            -->
+                        </div>
+                        <div class="input-field-container">
+                            <div class="custom-input-field">
+                                <span class="input-icon"><i class="fa fa-lock" aria-hidden="true"></i></span>
+                                <span class="input-tooltip-icon"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                                <span class="input-tooltip-text">Password</span>
+                                </span>
+                                <input type="text" name="login_u_pass" placeholder="Password">
+                            </div>
+                            <!--
+                            <p class="input-error" style="color: red;"><span class="error-icon"><i class="fa fa-exclamation-circle" aria-hidden="true"></i></span>Please enter a password</p>
+                            -->
+                        </div>
+                        <div class="input-field-container">
+                            <div class="custom-checkbox">
+                                <input type="checkbox" name="remember_me" id="rem">
+                                <label for="rem">Remember me</label>
+                            </div>
+                        </div>
+                        <div class="input-field-container">
+                            <button type="submit" name="login" class="submit-btn">Sign In</button>
+                        </div>
+                    </form>
+                    <a href="#" class="need-help">Need help signing in?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
